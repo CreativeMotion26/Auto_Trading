@@ -1,0 +1,5 @@
+ccxt
+schedule
+pandas
+prophet
+pyupbit
