@@ -7,3 +7,4 @@ Review the dependencies and libraries used in the code. Commonly used libraries 
 
 # AI prediction model
 Understand the trading strategies implemented in the code. These strategies could be based on technical indicators like Moving Averages, RSI (Relative Strength Index), MACD (Moving Average Convergence Divergence), Bollinger Bands, or more advanced machine learning models for predictive analysis.
+image](https://github.com/CreativeMotion26/Auto_Trading/assets/115443508/88b025cf-606a-47ca-b4af-467eefd0adda)
