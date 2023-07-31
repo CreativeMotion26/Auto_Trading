@@ -45,7 +45,7 @@ Tweets Sentiment Analysis is a process of using natural language processing (NLP
   
 
 
-========================================================================================================
+===========================================================================
 
  **Keep in mind** that auto trading involves real money and can be risky. Always thoroughly test any strategy on historical data and consider using paper trading or a practice account with real-time data before deploying it with real money. Additionally, be cautious when using code from GitHub or any other source, as it might not be thoroughly vetted, and it's essential to understand the code's logic and implications before running it.
 
