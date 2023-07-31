@@ -35,11 +35,12 @@ Tweets Sentiment Analysis is a process of using natural language processing (NLP
 
 **The process generally involves the following steps:**
 
-  1. Data Collection: Collecting tweets related to a specific topic or company using Twitter API or web scraping.
-  2. Text Preprocessing: Cleaning and preparing the tweet text by removing special characters, converting to lowercase, and handling stopwords.
-  3. Sentiment Analysis: Using NLP techniques and machine learning models to classify the tweets' sentiment as positive, negative, or neutral.
-  4. Visualization: Presenting the sentiment analysis results through graphs or charts to provide insights into the overall sentiment towards the topic or company.
+*  1. Data Collection: Collecting tweets related to a specific topic or company using Twitter API or web scraping.
+*  2. Text Preprocessing: Cleaning and preparing the tweet text by removing special characters, converting to lowercase, and handling stopwords.
+*  3. Sentiment Analysis: Using NLP techniques and machine learning models to classify the tweets' sentiment as positive, negative, or neutral.
+*  4. Visualization: Presenting the sentiment analysis results through graphs or charts to provide insights into the overall sentiment towards the topic or company.
   
+
 
 
 
