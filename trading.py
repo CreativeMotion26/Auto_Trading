@@ -11,13 +11,13 @@ import ai
 
 #binance objects
 binance = ccxt.binance(config={
-    'apiKey': "AKSy7J4HltDnWI0OVbc6y3ogfDfb5CPy2vrJREN5iFaBC8SQObivFsoHbAtDNKmA",
-    'secret': "l4BOY3ITLlsiNrGzU7OdODsk8DIuLXeUlQeb3JbCd05uejTQ5G0bG1Nq9r90ADML",
+    'apiKey': "your_api_key",
+    'secret': "your_secert_key",
     'enableRateLimit': True,
     'options': {'defaultType': 'future'}
 })
 
-myToken = "xoxb-4263756875586-4249588574535-MvoQsiuBPzU1DLFQfql7Agby"
+myToken = "your slack token"
 
 # Alter meassage from Slack 
 def post_message(token, channel, text):
