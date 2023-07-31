@@ -1,11 +1,11 @@
-# 목표가 계산 price
+# Claculate target price
 import pandas as pd
 import requests
 import math
 import ai
 
 
-myToken = "xoxb-4263756875586-4249588574535-MvoQsiuBPzU1DLFQfql7Agby"
+myToken = "Your_slack_token"
 
 # Alter meassage from Slack 
 def post_message(token, channel, text):
@@ -25,7 +25,7 @@ def cal_amount(usdt_balance, cur_price):
 symbol = "BTC/USDT"
 
 def cal_target(exchange,symbol):
-    #  거래소에서 symbol에 대한  ohlcv 일봉을 얻기
+    # Get ohlcv from exchanges
     data = exchange.fetch_ohlcv(
         symbol =symbol,
         timeframe='1d',
@@ -33,7 +33,7 @@ def cal_target(exchange,symbol):
         limit=10
     ) 
     
-    # 일봉 데이터를 데이터프레임 객체로 변환
+    # chage ohlcv to dataframe object
     df = pd.DataFrame(
         data=data,
         columns=['datetime','open','high','low','close','volume']
@@ -41,7 +41,7 @@ def cal_target(exchange,symbol):
     df['datetime'] = pd.to_datetime(df['datetime'], unit='ms')
     df.set_index('datetime',inplace=True)
 
-    # 일봉 데이터를 데이터 프레임 객체로 전환
+    
     yesterday = df.iloc[-2]
     today = df.iloc[-1]
     
