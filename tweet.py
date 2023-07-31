@@ -6,10 +6,10 @@ import slack
 import requests
 
 # Get the Twitter API Credentials 
-api_key = "VlqN4HEcQkOe8jMkwfkJFBnXj"
-api_key_secret = "EexooIJO2kKiWOJG0PlIWTic3kk0dMPpBzablDietOwmzHRAR0"
-access_token = "1592005979540856834-OJfeA6d1PBRbsR8IMYd1V1COmvaA1D"
-access_token_secret = "Y8p2C91ss2XzMHTTTDCDalbgrXYGU6oFBYopBZb2otyuB"
+api_key = "Your_api_key"
+api_key_secret = "your_secret_key"
+access_token = "your_access_token"
+access_token_secret = "your_secret_token"
 
 # Create the authentication object 
 authenticator = tweepy.OAuthHandler(api_key, api_key_secret)
